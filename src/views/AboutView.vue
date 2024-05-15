@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-4 text-body-secondary">
     <nav id="navbar-about" class="navbar bg-body-tertiary px-3 mb-3">
-      <a class="navbar-brand" href="#">App Pokemon Dex Vue</a>
+      <a class="navbar-brand" href="#">App Pokedex Vue</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link" href="#scroll1">Linguagem</a>
@@ -34,7 +34,10 @@
       <p>- Bootstrap</p>
       <p>- Vite</p>
       <p>- Animated (CSS)</p>
-      <p>- Consumo da API PokeAPI</p>
+      <p>
+        - Consumo da API PokeAPI -
+        <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/</a>
+      </p>
 
       <h4 id="scroll3" class="mt-5">Objetivo</h4>
       <p>- Projeto de estudos do Vue 3.</p>
@@ -46,7 +49,12 @@
         >
       </p>
       <h4 id="scroll5" class="mt-5">Publicação</h4>
-      <p class="mb-5">- Projeto publicado no Netlify:</p>
+      <p class="mb-5">
+        - Projeto publicado no Netlify:
+        <a href="https://pokemondex-vue.netlify.app/" target="_blank"
+          >https://pokemondex-vue.netlify.app/</a
+        >
+      </p>
       <p class="height"></p>
     </div>
   </div>

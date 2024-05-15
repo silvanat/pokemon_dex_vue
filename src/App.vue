@@ -16,7 +16,7 @@ let num = ref(0);
           height="30"
           class="d-inline-block align-text-top"
         />
-        Pokemon Dex Vue
+        Pokedex Vue
       </router-link>
 
       <button
@@ -54,7 +54,7 @@ let num = ref(0);
 
   <!-- footer -->
   <footer class="bg-primary text-light">
-    Projeto Pokemon Dex Vue - {{ new Date().getFullYear() }}
+    Projeto Pokedex Vue - {{ new Date().getFullYear() }}
   </footer>
   <!-- /footer -->
 </template>
