@@ -1,14 +1,17 @@
-# pokevite
+# Projeto Pokedex Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Publicado em: https://pokemondex-vue.netlify.app/
 
-## Recommended IDE Setup
+- Vue
+- Bootstrap
+- Animated CSS
+- Vite
+- Consumo da API PokeAPI - https://pokeapi.co/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![image](https://github.com/silvanat/pokemon_dex_vue/assets/1665405/f78682ec-e690-4005-87ce-6f4db7e223c3)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+------------------------------------------------------------------------
 
 ## Project Setup
 
