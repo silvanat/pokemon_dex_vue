@@ -12,20 +12,18 @@ const pokemon = defineProps(["name", "xp", "height", "img", "loading"]);
       :src="pokemon.img"
       class="card-img-top pt-5"
       :alt="pokemon.name"
-      height="250"
     />
     <img
       v-else
       src="../assets/egg_pokemon.svg"
       class="card-img-top pt-5"
       alt="Ovo Pokemon"
-      height="250"
     />
     <div class="card-body">
       <h5 class="card-title text-center">
         {{ pokemon.name || " - " }}
       </h5>
-      <hr class="pt-2 mt-5" />
+      <hr class="pt-2" />
       <div class="row">
         <section class="col">
           <strong>XP:</strong>
@@ -49,5 +47,18 @@ const pokemon = defineProps(["name", "xp", "height", "img", "loading"]);
     rgba(70, 252, 199, 0.02) 100%
   );
   height: 75vh;
+}
+.card-pokemon-selected img {
+  height: 250px;
+}
+@media (max-width: 768px) {
+  .card-pokemon-selected {
+    height: 260px;
+    margin: 0 auto 10px;
+    width: 40%;
+  }
+  .card-pokemon-selected img {
+    height: 130px;
+  }
 }
 </style>

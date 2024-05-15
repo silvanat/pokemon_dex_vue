@@ -4,7 +4,7 @@ const indice = pokemon.url;
 </script>
 
 <template>
-  <div class="col-6">
+  <div class="col-4 col-md-6 col-xl-4 col-xxl-3">
     <div class="card mb-3 p-2 cardListPokemon">
       <p class="text-center">{{ pokemon.name }}</p>
       <img
